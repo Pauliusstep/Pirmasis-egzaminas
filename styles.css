@@ -1,0 +1,45 @@
+body {
+    margin: 30px;
+    font-family: 'Inter', sans-serif;
+    
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+main h1{
+    color: #111111;
+    font-size: 45px;
+    font-weight: 800;
+    margin: auto;
+    padding-top: 10px;
+    
+}
+
+main h3{
+    color: #FF3998;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.1em;
+    padding-top: 45px;
+}
+
+main p {
+    color: #555555;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 150%;
+    padding-top: 10px;
+    width: 295px;
+}
+.purple {
+    position:absolute;
+    left: 14.5rem;
+    width: 22rem;
+    height: 24rem;
+    top: 4rem;
+}
