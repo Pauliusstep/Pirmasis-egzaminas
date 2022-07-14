@@ -1,7 +1,14 @@
 body {
-    margin: 30px;
     font-family: 'Inter', sans-serif;
-    
+    height: 100%;
+}
+
+.header,
+.launching,
+.container-1,
+.le,
+footer {
+    margin: 30px;
 }
 
 .header {
@@ -9,13 +16,12 @@ body {
     justify-content: space-between;
 }
 
-main h1{
+.launching h1{
     color: #111111;
     font-size: 45px;
     font-weight: 800;
     margin: auto;
     padding-top: 10px;
-    
 }
 
 main h3{
@@ -28,7 +34,8 @@ main h3{
     padding-top: 45px;
 }
 
-main p {
+main p, 
+section.le p {
     color: #555555;
     font-weight: 400;
     font-size: 22px;
@@ -36,10 +43,96 @@ main p {
     padding-top: 10px;
     width: 295px;
 }
+
 .purple {
     position:absolute;
-    left: 14.5rem;
-    width: 22rem;
+    left: 16rem;
+    width: 35rem;
     height: 24rem;
     top: 4rem;
+}
+
+.oranzinis {
+    background-image: url(/fonas.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin:50px 0px 0px 0px;
+    height: 19rem;
+}
+
+.sign {
+    color: #111111;
+    background-color: white;
+    border-radius:20em;
+    border: solid rgb(240, 51, 8);
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 150%;
+    width: 11rem;
+    height: 4rem;
+}
+
+.free-nft {
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 120%;
+    padding-top: 100px;
+    margin-left: 30px;
+}
+
+.oranzinis p {
+    color: #111111;
+    font-weight: 400;
+    font-size: 20px;
+    margin-left: 30px;
+    padding-top: 2px;
+    width: 90% ;
+}
+
+.container-1 {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column (2, 1fr);
+    row-gap: 10px;
+    justify-content: space-between;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+.container-1 img {
+    width: 10.3rem;
+}
+.le h1 {
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 50px;
+    padding-top: 20px;
+}
+
+.le p {
+    margin-top: -20px;
+}
+.open-sea {
+    color: #555555;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.scrolling-wrapper {
+    display: flex;
+    overflow-x: auto;
+}
+
+div.scrolling-wrapper img {
+    margin: 0 0 0 30px;
+}
+
+hr {
+    margin: 90px 0px 0px 0px;
+}
+
+.zalia-mergaite-didele {
+    width: 206px;
+    height: 467px;
+    left: 253px;
 }
