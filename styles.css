@@ -7,14 +7,33 @@ body {
 .launching,
 .container-1,
 .le,
-footer {
+footer,
+.lenteles {
     margin: 30px;
+}
+
+@media ( min-width: 1200px) {
+    .header,
+.launching,
+.container-1,
+.le,
+footer,
+.lenteles {
+    margin: 50px;
+}
 }
 
 .header {
     display: flex;
     justify-content: space-between;
 }
+
+@media (min-width: 1200px) {
+    .hamburger {
+        display: none;
+    }
+}
+
 
 .launching h1{
     color: #111111;
@@ -56,10 +75,15 @@ section.le p {
     background-image: url(/fonas.svg);
     background-repeat: no-repeat;
     background-size: cover;
-    margin:50px 0px 0px 0px;
+    margin:50px 0 0 0px;
     height: 19rem;
 }
 
+@media ( min-width:1200px) {
+    .oranzinis {
+        margin: 50px 30px 0 30px;
+    }
+}
 .sign {
     color: #111111;
     background-color: white;
@@ -123,10 +147,6 @@ section.le p {
     overflow-x: auto;
 }
 
-div.scrolling-wrapper img {
-    margin: 0 0 0 30px;
-}
-
 hr {
     margin: 90px 0px 0px 0px;
 }
@@ -135,4 +155,141 @@ hr {
     width: 206px;
     height: 467px;
     left: 253px;
+}
+
+table {
+    padding: 15px;
+    width: 100%;
+}
+
+.lenteles {
+    background-color: #EEEEEE;
+    border-radius: 16px;
+    width: 22rem;
+    left: 0%;
+}
+
+.gloop {
+    color: #FF8139;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 100%;
+    text-transform: uppercase;
+    text-align: left;
+}
+
+.topbid {
+    color: #777777;
+    font-weight: 500;
+    text-transform: uppercase;
+    font-size: 12px;
+    text-align:right;
+}
+
+.veikejas {
+    font-size: 20px;
+}
+
+.kaina {
+    font-weight: 500;
+    font-size: 20px;
+    text-align: right;
+ 
+}
+
+.kodas {
+    color: #777777;
+    text-align: left;
+    font-weight: 400;
+    font-size: 18px;
+    
+}
+
+.diena {
+    color: #777777;
+    text-align: right;
+}
+
+td,
+th {
+    padding: 3px;
+}
+
+
+footer p {
+    color: #555555;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.social {
+    padding: 10px 0px 0px 0px;
+    margin-bottom: 30px;
+}
+
+.galas,
+.galas-1 {
+    font-weight: 700;
+    font-size: 16px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.sarasas {
+    display:flex;
+    flex-wrap: wrap;
+    list-style: none; 
+   
+}
+
+.pabaiga,
+.pabaiga-1 {
+    color: #555555;
+    font-weight: 700;
+    letter-spacing: 0.1rem;
+    padding: 20px 80px 20px 0px;
+}
+
+li {
+    color: #555555;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 1.7;
+}
+
+nav a { 
+    color:#555555;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 100%;
+    text-decoration: none;
+    padding: 15px;
+    
+}
+
+@media (max-width:1200px) {
+    nav a {
+        display: none;
+        
+    }
+}
+
+.sign-up {
+    color: #FF3998;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 100%;
+    
+}
+
+.copy {
+    color: #999999;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 100%;
+}
+
+.august {
+    padding-left: 50rem;
 }
